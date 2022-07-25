@@ -8,6 +8,7 @@ from django.core.management.base import BaseCommand
 
 import time
 
+
 class Command(BaseCommand):
     """Django command to wait for DB"""
     def handle(self, *args, **options):
